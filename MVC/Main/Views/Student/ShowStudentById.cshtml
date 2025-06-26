@@ -1,0 +1,15 @@
+@model Student
+
+<table class="table table-bordered table-hover">
+    <th>
+        <td>Id</td>
+        <td>Name</td>
+        <td>ImageURL</td>
+    </th>
+    <tr>
+        <td></td>
+        <td>@Model.Id</td>
+        <td>@Model.Name</td>
+        <td><img src=/@Model.ImageURL></td>
+    </tr>
+</table>
