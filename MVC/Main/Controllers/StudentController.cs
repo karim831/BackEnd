@@ -1,4 +1,4 @@
-using Main.Models;
+using Main.Models.BusinessLogic;
 using Microsoft.AspNetCore.Mvc;
 namespace Main.Controllers;
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o38oojoCTAt/gjs/sW/aYu8QrAAoOoqWbRdgKWuB2ZQ=",
+  "Hash": "v5UmqdBWlQuKhsNI2mIjrQxr7DQKXy0XY8pQXJ491+w=",
   "Source": "Main",
   "BasePath": "_content/Main",
   "Mode": "Default",
@@ -53,25 +53,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/kareem/Studying/C#/Backend/MVC/Main/obj/Debug/net8.0/scopedcss/projectbundle/Main.bundle.scp.css"
-    },
-    {
-      "Identity": "/home/kareem/Studying/C#/Backend/MVC/Main/wwwroot/Controller/StudentController.cs",
-      "SourceId": "Main",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/kareem/Studying/C#/Backend/MVC/Main/wwwroot/",
-      "BasePath": "_content/Main",
-      "RelativePath": "Controller/StudentController.cs",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Controller/StudentController.cs"
     },
     {
       "Identity": "/home/kareem/Studying/C#/Backend/MVC/Main/wwwroot/css/site.css",

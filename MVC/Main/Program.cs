@@ -1,7 +1,15 @@
+using Main.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+var conString = builder.Configuration.GetConnectionString("LearningMVC") ??
+     throw new InvalidOperationException("Connection string 'LearningMVC'" +
+    " not found.");
+builder.Services.AddDbContext<MVCDbContext>(options => 
+    options.UseSqlServer(conString));
 
 var app = builder.Build();
 

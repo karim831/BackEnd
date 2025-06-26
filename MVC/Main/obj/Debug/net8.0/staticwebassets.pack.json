@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets/Main.bundle.scp.css"
     },
     {
-      "Id": "/home/kareem/Studying/C#/Backend/MVC/Main/wwwroot/Controller/StudentController.cs",
-      "PackagePath": "staticwebassets/Controller/StudentController.cs"
-    },
-    {
       "Id": "/home/kareem/Studying/C#/Backend/MVC/Main/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
