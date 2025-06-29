@@ -1,0 +1,13 @@
+@using Main.Models.Entity
+@model IList<Department>
+
+
+<table class="table table-bordered table-hover">
+    @foreach(var department in Model){
+        <tr>
+            <td>@department.Id</td>
+            <td>@department.Name</td>
+            <td>@department.ManagerName</td>
+        </tr>
+    }
+</table>

@@ -26,6 +26,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/kareem/Studying/C#/Backend/MVC/Main
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/kareem/Studying/C\#/Backend/MVC/Main/Views/Department/ShowAllDepartments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVwYXJ0bWVudC9TaG93QWxsRGVwYXJ0bWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kareem/Studying/C\#/Backend/MVC/Main/Views/Employee/ShowEmployeeById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZWUvU2hvd0VtcGxveWVlQnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kareem/Studying/C\#/Backend/MVC/Main/Views/Employee/ShowEmployeeByIdVM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZWUvU2hvd0VtcGxveWVlQnlJZFZNLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/kareem/Studying/C\#/Backend/MVC/Main/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

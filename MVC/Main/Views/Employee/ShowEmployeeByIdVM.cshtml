@@ -1,0 +1,13 @@
+@using Main.Models.ViewModels
+@model EmployeeMsgDateViewModel
+
+<h1>@Model.Msg</h1>
+<h2>@(Model.DateNow + TimeSpan.FromDays(5))</h2>
+
+<table class="table table-bordered table-hover">
+    <tr>
+        <td>@Model.Name</td>
+        <td>@Model.JobTitle</td>
+        <td>@Model.Salary</td>
+    </tr>
+</table>

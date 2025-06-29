@@ -1,0 +1,14 @@
+@using Main.Models.Entity;
+@model Employee    
+
+<h1>@ViewData["Msg"]</h1>
+@* <h2>@((DateTime)ViewData["Date"] + TimeSpan.FromDays(5))</h2> *@
+<h2>@(ViewBag.Date + TimeSpan.FromDays(5))</h2> 
+
+<table class="table table-bordered table-hover">
+    <tr>
+        <td>@Model.Name</td>
+        <td>@Model.JobTitle</td>
+        <td>@Model.Salary</td>
+    </tr>
+</table>
