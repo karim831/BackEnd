@@ -26,4 +26,5 @@ public class InstructorController: Controller{
 
     public IActionResult GetAllInstructors() => 
         View("ShowAllInstructors",InstructorBL.GetAllInstructors(_context));
+    
 }
