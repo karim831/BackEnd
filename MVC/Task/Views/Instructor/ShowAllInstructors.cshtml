@@ -1,0 +1,27 @@
+@using Task.Models.Views
+@model IList<ShowAllInstructorsViewModel>
+
+
+<table class="table table-bordered table-hover table-dark">
+    <thead>
+        <tr>
+            <th>#</td>
+            <th>Image</td>
+            <th>Name</td>
+            <th>Link</td>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int counter = 1;
+        }
+        @foreach(var instructor in Model){
+            <tr>
+                <td>@(counter++)</td>
+                <td><img src="/Images/@instructor.Image"></td>
+                <td>@instructor.Name</td>
+                <td><a href="/Instructor/GetInstructorById?Id=@instructor.Id">Details</td>
+            </tr>
+        }
+    </tbody>
+</table>
