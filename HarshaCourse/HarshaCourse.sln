@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Http", "Http\Http.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddleWare", "MiddleWare\MiddleWare.csproj", "{54B13F27-F4CA-4499-9E99-2C34C4CD9D2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing", "Routing\Routing.csproj", "{750E8045-21F5-441E-AA43-0A877A61A36A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "Controllers\Controllers.csproj", "{7110B19E-6509-447B-9564-63ED96CF5C13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{54B13F27-F4CA-4499-9E99-2C34C4CD9D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54B13F27-F4CA-4499-9E99-2C34C4CD9D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54B13F27-F4CA-4499-9E99-2C34C4CD9D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{750E8045-21F5-441E-AA43-0A877A61A36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750E8045-21F5-441E-AA43-0A877A61A36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750E8045-21F5-441E-AA43-0A877A61A36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750E8045-21F5-441E-AA43-0A877A61A36A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7110B19E-6509-447B-9564-63ED96CF5C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7110B19E-6509-447B-9564-63ED96CF5C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7110B19E-6509-447B-9564-63ED96CF5C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7110B19E-6509-447B-9564-63ED96CF5C13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
