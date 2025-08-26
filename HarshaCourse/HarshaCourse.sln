@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing", "Routing\Routing.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "Controllers\Controllers.csproj", "{7110B19E-6509-447B-9564-63ED96CF5C13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelBinding", "ModelBinding\ModelBinding.csproj", "{C663211B-7296-4C48-B554-2FD9E70E0BB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{7110B19E-6509-447B-9564-63ED96CF5C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7110B19E-6509-447B-9564-63ED96CF5C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7110B19E-6509-447B-9564-63ED96CF5C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C663211B-7296-4C48-B554-2FD9E70E0BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C663211B-7296-4C48-B554-2FD9E70E0BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C663211B-7296-4C48-B554-2FD9E70E0BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C663211B-7296-4C48-B554-2FD9E70E0BB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
