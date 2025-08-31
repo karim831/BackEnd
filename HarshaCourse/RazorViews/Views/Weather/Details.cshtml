@@ -1,0 +1,20 @@
+@model CityWeather
+
+<section class="container">
+        <div class="card">
+            <div class="header">
+                <h2>@Model.CityName</h2>
+                @if(DateTime.TryParse(Model.DateAndTime, out DateTime time)){
+                    <h4>@time.ToString("dd MMM yyyy")</h4>
+                    <h4>@time.ToString("hh:mm tt")</h4>
+                }
+                else{
+                    <h4>@DateTime.Now.ToString("dd MMM yyyy")</h4>
+                    <h4>@DateTime.Now.ToString("hh:mm tt")</h4>
+                }
+            </div>
+            <div class="temperature">
+                <h2>@Model.TemperatureFahrenheit</h2>
+            </div>
+        </div>
+</section>
