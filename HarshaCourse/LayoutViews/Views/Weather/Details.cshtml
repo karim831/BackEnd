@@ -1,0 +1,17 @@
+@model CityWeather
+
+
+<div class="flex">
+    <div class="box w-25 text-center margin-auto">
+        <h2>@Model.CityName</h2>
+        @if(DateTime.TryParse(Model.DateAndTime, out DateTime time))
+        {
+            <p class="text-grey">@time.ToString("hh:mm tt")</p>
+        }
+        else
+        {
+            <p class="text-grey">@DateTime.Now.ToString("hh:mm tt")</p>
+        }
+        <h2>@Model.TemperatureFahrenheit °F</h2>
+    </div>
+</div>

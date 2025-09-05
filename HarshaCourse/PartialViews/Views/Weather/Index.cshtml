@@ -1,0 +1,23 @@
+@model IList<CityWeather>
+
+@{
+    string DetectColor(CityWeather city)
+    {
+        if(city.TemperatureFahrenheit < 44)
+            return "blue-back";
+        else if(city.TemperatureFahrenheit >= 44 && city.TemperatureFahrenheit <= 74)
+            return "green-back";
+        else
+            return "orange-back";
+    }
+}
+
+<div class="flex">
+    @foreach(var city in Model)
+    {
+        <div class="box @DetectColor(city) w-25 text-center">
+            @{await Html.RenderPartialAsync("_CityWheather",city);}
+            <a href="/weather/@city.CityUniqueCode">Details</a>
+        </div>
+    }
+</div>

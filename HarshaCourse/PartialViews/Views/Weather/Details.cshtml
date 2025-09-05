@@ -1,0 +1,8 @@
+@model CityWeather
+
+
+<div class="flex">
+    <div class="box w-25 text-center margin-auto">
+        @{await Html.RenderPartialAsync("_CityWheather",Model);}
+    </div>
+</div>
